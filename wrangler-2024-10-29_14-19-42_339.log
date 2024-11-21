@@ -1,0 +1,95 @@
+
+--- 2024-10-29T14:19:42.567Z debug
+🪵  Writing logs to "C:\Users\silva\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2024-10-29_14-19-42_339.log"
+---
+
+--- 2024-10-29T14:19:42.567Z log
+
+ ⛅️ wrangler 3.83.0
+[38;2;255;136;0m-------------------[39m
+
+---
+
+--- 2024-10-29T14:19:42.569Z debug
+No experimental flag store instantiated
+---
+
+--- 2024-10-29T14:19:42.569Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2024-10-29T14:19:42.589Z debug
+Retrieving cached values for account from node_modules\.cache\wrangler
+---
+
+--- 2024-10-29T14:19:42.589Z debug
+Starting verifyWorkerMatchesCITag() with tag: undefined, name: openai-api-worker
+---
+
+--- 2024-10-29T14:19:42.589Z debug
+No WRANGLER_CI_MATCH_TAG variable provided, aborting verifyWorkerMatchesCITag()
+---
+
+--- 2024-10-29T14:19:42.590Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/5e39ddec62acc9f635c4fbe4c3429722/workers/services/openai-api-worker
+---
+
+--- 2024-10-29T14:19:42.590Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:42.590Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:42.590Z debug
+-- END CF API REQUEST
+---
+
+--- 2024-10-29T14:19:43.407Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2024-10-29T14:19:43.408Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:43.408Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:43.408Z debug
+-- END CF API RESPONSE
+---
+
+--- 2024-10-29T14:19:43.409Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/5e39ddec62acc9f635c4fbe4c3429722/workers/scripts/openai-api-worker/deployments
+---
+
+--- 2024-10-29T14:19:43.409Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:43.409Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:43.409Z debug
+-- END CF API REQUEST
+---
+
+--- 2024-10-29T14:19:43.699Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2024-10-29T14:19:43.699Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:43.699Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-10-29T14:19:43.699Z debug
+-- END CF API RESPONSE
+---

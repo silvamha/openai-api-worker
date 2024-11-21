@@ -7,9 +7,12 @@
  *
  * Learn more at https://developers.cloudflare.com/workers/
  */
+import {Openai} from 'openai';
+
 
 export default {
 	async fetch(request, env, ctx) {
+		apiKey: env.OPENAI_API_KEY
 		return new Response('Hello World!');
 	},
 };
